@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Automotivo - Relatório de Redes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <header>
+        <h1>Painel Automotivo - Redes e Análises</h1>
+        <nav>
+            <a href="index.html">Visão Global</a>
+            <a href="#">Relatório da Frota</a>
+        </nav>
+    </header>
+    <main class="graficos-section">
+        <section id="graficos-container" class="graficos-container">
+            <div class="graficos-container__texto">
+                <p>Explore o desempenho da frota e sua presença nas <span>redes sociais</span>.</p>
+            </div>
+            <div id="grafico1"></div>
+            <div id="grafico2"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gui Lima - Análises Automotivas</p>
+    </footer>
+    <script type="module" src="graficos/common.js"></script>
+    <script type="module" src="graficos/informacoesGlobais.js"></script>
+    <script type="module" src="graficos/quantidadeUsuarios.js"></script>
+    <script type="module" src="graficos/redesFavoritasMundo.js"></script>
+</body>
+</html>
